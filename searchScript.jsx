@@ -4,7 +4,7 @@ function runScript() {
  
 var lastRow = source.getLastRow();
  
-for(let x = 2712; x <= lastRow; x++){
+for(let x = 1; x <= lastRow; x++){
   let targetObj = source.getRange(`A${x}`);
   let targetVal = targetObj.getValues();
  
